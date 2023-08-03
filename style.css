@@ -1,0 +1,1291 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    background-color: #141024;
+    height: 1080px;
+    width: 1920px;
+}
+
+.header-first {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+
+.about-school {
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.Treners {
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.how-many {
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header-line {
+    margin-left: 300px;
+    padding-top: 30px;
+}
+
+.header-phone {
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 200px;
+    padding-top: 30px;
+}
+
+.header-title {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: -550px;
+    margin-left: 250px;
+}
+
+.header-info {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 250px;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+.btn-header {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #D52027;
+    width: 260px;
+    padding: 26px 45px;
+    padding-right: 50px;
+}
+
+.header-btn {
+    margin-left: 250px;
+}
+
+.image-header {
+    width: 783px;
+    height: 917px;
+    margin-left: 840px;
+    margin-top: -644px;
+}
+
+.info-text {
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 250px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.info-text span {
+    font-weight: 600;
+}
+
+.first-num {
+    font-family: 'Jost', sans-serif;
+    color: #D52027;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.info-first {
+    font-family: 'Jost', sans-serif;
+    color: rgba(20, 16, 36, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.table-first {
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.second-num {
+    font-family: 'Jost', sans-serif;
+    color: #D52027;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.info-second {
+    font-family: 'Jost', sans-serif;
+    color: rgba(20, 16, 36, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.table-second {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.third-num {
+    font-family: 'Jost', sans-serif;
+    color: #D52027;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.info-third {
+    font-family: 'Jost', sans-serif;
+    color: rgba(20, 16, 36, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.table-third {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.table-main {
+    padding-bottom: 80px;
+}
+
+.quation-block {
+    background-color: rgba(249, 249, 249, 1);
+    width: 1920px;
+}
+
+.text-quation {
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 30px;
+    margin-left: 250px;
+    padding-bottom: 60px;
+}
+
+.knowledge-course {
+    background-color: rgba(249, 249, 249, 1);
+}
+
+.Identity-title {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.Identity-info {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(20, 16, 36, 0.7);
+}
+
+.Identity-block {
+    margin-left: 250px;
+    display: block;
+    align-items: center;
+}
+
+.Knowledge-title {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.Knowledge-info {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(20, 16, 36, 0.7);
+}
+
+.Knowledge-block {
+    margin-left: 400px;
+    display: block;
+    align-items: center;
+    margin-top: -122px;
+}
+
+.Practice-title {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.Practice-info {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(20, 16, 36, 0.7);
+}
+
+.Practice-block {
+    margin-left: 400px;
+    display: block;
+    align-items: center;
+    margin-top: -122px;
+}
+
+.knowledge-course {
+    padding-bottom: 30px;
+}
+
+.package-title {
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 50px;
+    margin-left: 250px;
+    padding-top: 30px;
+}
+
+.package-first {
+    background-color: rgba(20, 16, 36, 1);
+    width: 360px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 250px;
+}
+
+.pro-title {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.pro-price {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.pro-info-first {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.pro-info-second {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.pro-btn {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #D52027;
+    width: 229px;
+    padding: 15px 30px;
+    display: block;
+    margin:0 auto;
+    border-radius: 5px;
+}
+
+.package-second {
+    background-color: transparent;
+    border: 1px solid #14102475;
+    width: 360px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 650px;
+    margin-top: -500px;
+    display: block;
+    align-items: center;
+}
+
+.robo-title {
+    font-family: 'Jost', sans-serif;
+    color: #141024;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.robo-price {
+    font-family: 'Jost', sans-serif;
+    color: #141024;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.robo-info-first {
+    font-family: 'Jost', sans-serif;
+    color: #141024;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.robo-btn {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #D52027;
+    width: 229px;
+    padding: 15px 30px;
+    display: block;
+    margin:0 auto;
+    border-radius: 5px;
+}
+
+.package-third {
+    background-color: transparent;
+    border: 1px solid #14102475;
+    width: 360px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 1050px;
+    margin-top: -500px;
+    display: block;
+    align-items: center;
+}
+
+.prog-title {
+    font-family: 'Jost', sans-serif;
+    color: #141024;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.prog-price {
+    font-family: 'Jost', sans-serif;
+    color: #141024;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.prog-info-first {
+    font-family: 'Jost', sans-serif;
+    color: #141024;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.prog-btn {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #D52027;
+    width: 229px;
+    padding: 15px 30px;
+    display: block;
+    margin:0 auto;
+    border-radius: 5px;
+}
+
+.input {
+    background-color: #D52027;
+    width: 1920px;
+    height: 460px;
+    margin-top: 100px;
+}
+
+.input-title {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 190px;
+    margin-left: 250px;
+}
+
+.input-subtitle {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 250px;
+}
+
+.name-input {
+background: #fff;
+    border: none;
+    color: #14102477;
+    background-color: #fff;
+    padding: 20px 55px;
+    position: absolute;
+    left: 50%;
+    margin-top: -120px;
+}
+
+.phone-input {
+    background: #fff;
+    border: none;
+    color: #14102477;
+    background-color: #fff;
+    padding: 20px 55px;
+    position: absolute;
+    left: 50%;
+    margin-top: -50px;
+}
+
+.email-input {
+    background: #fff;
+    border: none;
+    color: #14102477;
+    background-color: #fff;
+    padding: 20px 55px;
+    position: absolute;
+    left: 50%;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #141024;
+    width: 1920px;
+    height: 159px;
+}
+
+.footer-title {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 30px;
+    margin-left: 250px;
+}
+
+.footer-subtitle {
+    font-family: 'Jost', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 250px;
+}
+
+.footer-phone {
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 800px;
+    margin-top: -20px;
+    display: flex;
+    align-items: baseline;
+    margin-top: -70px;
+    margin-left: 1200px;
+}
+
+.open {
+    display: flex !important;
+}
+
+.burger {
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+    margin-top: 30px;
+    margin-left: 460px;
+}
+
+.burger span {
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+    background-color: #FaF6F2;
+}
+
+.burger::before, .burger::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #FaF6F2;
+    transition: all 0.3s ease 0s;
+}
+
+.burger::before { top: 0 }
+
+.burger::after { bottom: 0 }
+
+.burger.active span { transform: scale(0);}
+
+.burger.active::before{
+    top: 50%;
+    transform: rotate(45deg) translate(0,50%);
+}
+
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0,50%);
+}
+
+@media (max-width:1660px) {
+    .Knowledge-block {
+        margin-left: 450px;
+    display: block;
+    align-items: center;
+    margin-top: -142px;
+    }
+
+    .Practice-block {
+        margin-left: 400px;
+    display: block;
+    align-items: center;
+    margin-top: -134px;
+    }
+}
+
+
+
+
+@media (max-width: 1470px) {
+    .image-header {
+        width: 433px;
+    height: 447px;
+    margin-left: 618px;
+    margin-top: -172px;
+    }
+
+    .header-phone {
+        display: none;
+    }
+
+    .knowledge-course {
+        display: none;
+    }
+    
+    .quation-block {
+        display: none;
+    } 
+
+    .header-phone {
+        font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 20px;
+    padding-top: 30px;
+    }
+
+    .table-first {
+        margin-left: 30px;
+    display: flex;
+    align-items: center;
+    }
+
+    .table-second {
+        margin-left: 25px;
+        display: flex;
+        align-items: center;
+    }
+
+    .table-third {
+        margin-left: 25px;
+        display: flex;
+        align-items: center;
+    }
+
+    .Identity-block {
+        margin-left: 30px;
+        display: block;
+    }
+
+    .Identity-info {
+        font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    }
+
+    .Knowledge-info {
+        font-family: 'Jost', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .Practice-title {
+        font-family: 'Jost', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+
+    .Practice-info {
+        font-family: 'Jost', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .Practice-block {
+        margin-left: 360px;
+    display: block;
+    }
+
+    .package-first {
+        background-color: rgba(20, 16, 36, 1);
+        width: 360px;
+        height: 500px;
+        border-radius: 20px;
+        margin-left: 4px;
+    }
+
+    .package-second {
+        background-color: transparent;
+    border: 1px solid #14102475;
+    width: 360px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 367px;
+    margin-top: -500px;
+    display: block;
+    }
+
+    .name-input {
+        left: 55%;
+    }
+
+    .phone-input {
+        left: 55%;
+    }
+
+    .email-input {
+        left: 55%;
+    }
+
+    .package-third {
+        background-color: transparent;
+    border: 1px solid #14102475;
+    width: 360px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 730px;
+    margin-top: -500px;
+    display: block;
+    }
+
+    .footer-phone {
+        font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 800px;
+    margin-top: -20px;
+    display: flex;
+    align-items: baseline;
+    margin-top: -70px;
+    margin-left: 740px;
+    }
+
+    .header {
+        width: 1460px;
+    }
+
+    .quation-block {
+        width: 1460px;
+    }
+
+    .input {
+        width: 1460px;
+    }
+
+    .footer {
+        width: 1460px;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    .quation-block {
+        width: 1100px;
+    }
+
+    .header {
+        width: 1100px;
+    }
+
+    .header-logo {
+        margin-left: 170px;
+    }
+
+    .image-header {
+        width: 327px;
+    height: 398px;
+    margin-left: 570px;
+    margin-top: -125px;
+    }
+
+    .input {
+        width: 1100px;
+    }
+
+    .header-line {
+        display: none;
+    }
+
+    .footer {
+        width: 1100px;
+    }
+
+    .package-second {
+        background-color: transparent;
+    border: 1px solid #14102475;
+    width: 360px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 322px;
+    margin-top: 27px;
+    }
+
+    .package-first {
+        background-color: rgba(20, 16, 36, 1);
+    width: 360px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 322px;
+    }
+
+
+    .package-third {
+        background-color: transparent;
+    border: 1px solid #14102475;
+    width: 360px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 322px;
+    margin-top: 30px;
+    }
+
+    .required-package {
+        display: block;
+    }
+
+    .Practice-info {
+        font-family: 'Jost', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .name-input {
+        background: #fff;
+    border: none;
+    color: #14102477;
+    background-color: #fff;
+    padding: 20px 55px;
+    position: absolute;
+    left: 60%;
+    margin-top: -120px;
+    }
+
+    .phone-input {
+        background: #fff;
+        border: none;
+        color: #14102477;
+        background-color: #fff;
+        padding: 20px 55px;
+        position: absolute;
+        left: 60%;
+        margin-top: -50px;
+    }
+
+    .email-input {
+        background: #fff;
+        border: none;
+        color: #14102477;
+        background-color: #fff;
+        padding: 20px 55px;
+        position: absolute;
+        left: 60%;
+        margin-top: 20px;
+    }
+
+    .table-first {
+        display: block;
+    }
+
+    .table-second {
+        display: block;
+        margin-left: 0px;
+    } 
+
+    .table-third {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .main-table {
+        text-align: center;
+    }
+
+    .header-phone {
+        display: none;
+    }
+
+    .info-text {
+        margin-left: 125px;
+        font-size: 26px;
+    }
+
+    .footer-phone {
+        font-family: 'Jost', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 800px;
+    margin-top: -20px;
+    display: flex;
+    align-items: baseline;
+    margin-top: -70px;
+    margin-left: 570px;
+    }
+
+    .input-title {
+        margin-left: 170px;
+    }
+
+    .input-subtitle {
+        margin-left: 170px;
+    }
+
+    .burger {display: flex;}
+
+    .header-line {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 72%;
+        width: 100%;
+        top: 0; bottom: 0; left: 0; right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 40px;
+        background-color: #1e1835;
+        animation: burgerAnimation 0.4s;
+    }
+
+    .header a {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+
+
+@media (max-width: 730px) {
+    .header-logo {
+        margin-left: 60px;
+    }
+
+    .header-title {
+        margin-left: 180px;
+    }
+
+    .header-info {
+        margin-left: 183px;
+    }
+
+    .btn-header {
+        margin-left: -65px;
+    }
+
+    .image-header {
+        width: 327px;
+    height: 398px;
+    margin-left: 470px;
+    margin-top: -125px;
+    }
+
+    .package-title {
+        font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 50px;
+    margin-left: 105px;
+    padding-top: 30px;
+    }
+
+    .package-first {
+        margin-left: 202px;
+    }
+
+    .package-second {
+        margin-left: 202px;
+    }
+
+    .package-third {
+        margin-left: 202px;
+    }
+
+    .input-title {
+        margin-left: 30px;
+    }
+
+    .input-subtitle {
+        margin-left: 30px;
+    }
+
+    .name-input {
+        left: 70%;
+    }
+
+    .phone-input {
+        left: 70%;
+    }
+
+    .email-input {
+        left: 70%;
+    }
+
+    .footer-title {
+        margin-left: 100px;
+    }
+
+    .footer-subtitle {
+        margin-left: 100px;
+    }
+
+    .footer-phone {
+        margin-left: 500px;
+    }
+
+    .header-line {
+        height: 54%;
+    }
+}
+
+
+@media (max-width:485px) {
+
+    .header {
+        width: 485px;
+    }
+
+    .header-title {
+        margin-left: 50px;
+    }
+
+    .header-info {
+        margin-left: 50px;
+    }
+
+    .btn-header {
+        margin-left: -200px;
+    }
+
+    .image-header {
+        margin-top: 6px;
+        width: 0;
+    height: 118px;
+    margin-left: 360px;
+    }
+
+    .burger {
+        margin-left: 140px;
+    }
+
+    .info-text {
+        margin-left: 65px;
+    font-size: 26px;
+    }
+
+    .package-first {
+        margin-left: 65px;
+    }
+
+    .package-second {
+        margin-left: 65px;
+    }
+
+    .package-third {
+        margin-left: 65px;
+    }
+
+    .input {
+        width: 485px;
+    }
+
+    .footer {
+        width: 485px;
+    }
+
+    .input-title {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    .input-block {
+        margin-top: 110px;
+    }
+
+    .name-input {
+        left: 62%;
+        padding: 20px 7px;
+        margin-top: -200px;
+    }
+
+    .phone-input {
+        left: 62%;
+        padding: 20px 7px;
+        margin-top: -130px;
+    }
+
+    .email-input {
+        left: 62%;
+        padding: 20px 7px;
+        margin-top: -60px;
+    }
+
+    .footer-phone {
+        display: none;
+    }
+
+    .header-line {
+        flex-direction: column;
+    position: fixed;
+    height: 118%;
+    width: 70%;
+    top: 0;
+    bottom: 0;
+    left: -152px;
+    right: 0;
+    z-index: 50;
+    overflow-y: auto;
+    }
+
+    .input-subtitle {
+        display: none;
+    } 
+
+    .main-table {
+        margin-left: 45px;
+    }
+
+    .footer-title {
+        margin-left: 20px;
+    }
+
+    .footer-subtitle {
+        margin-left: 22px;
+    }
+
+    .package-title {
+        font-size: 25px;
+    } 
+}
+
+
+
+@media (max-width: 390px) {
+    .package-title {
+        font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 50px;
+    margin-left: 105px;
+    padding-top: 30px;
+    }
+
+    .package-first {
+        margin-left: 55px;
+    }
+
+    .package-second {
+        margin-left: 55px;
+    }
+
+    .package-third {
+        margin-left: 55px;
+    }
+
+    .name-input {
+        left: 77%;
+    }
+
+    .phone-input {
+        left: 77%;
+    }
+
+    .email-input {
+        left: 77%;
+    }
+
+    .main-table {
+        margin-left: 60px;
+    }
+
+    .btn-header {
+        margin-left: -125px;
+    }
+
+    .input-subtitle {
+        display: none;
+    } 
+}
+
+
+
+@media (max-width: 345px) {
+    .header-title {
+        margin-left: 60px;
+    }
+
+    .header-info {
+        margin-left: 70px;
+    }
+
+    .btn-header {
+        margin-left: -178px;
+    }
+
+    .main-table {
+        margin-left: 100px;
+    }
+
+    .input-subtitle {
+        font-size: 12px;
+    margin-left: 10px;
+    }
+
+    .footer-title {
+        margin-left: 40px;
+    }
+
+    .footer-subtitle {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 300px) {
+    .btn-header {
+        margin-left: -202px;
+    }
+
+    .header-info {
+        margin-left: 50px;
+    }
+
+    .header-title {
+        margin-left: 49px;
+    }
+
+    .main-table {
+        margin-left: 125px;
+    }
+
+    .name-input {
+        left: 90%;
+    }
+
+    .phone-input {
+        left: 90%;
+    }
+
+    .email-input {
+        left: 90%;
+    }
+
+    .info-text {
+        margin-left: 55px;
+    font-size: 29px;
+    }
+    
+    .package-title {
+        font-size: 20px;
+    }
+
+    .main-table {
+        margin-left: 40px;
+    } 
+
+    .input-subtitle {
+        display: none;
+    }
+}
+
+
